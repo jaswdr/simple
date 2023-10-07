@@ -3,7 +3,7 @@
 ## Getting Started
 
 ```bash
-docker run -p 8080:80 docker.pkg.github.com/jaswdr/simple/server
+docker run -p 8080:80 ghcr.io/jaswdr/simple:master
 ```
 
 then access [http://localhost:8080](http://localhost:8080)
