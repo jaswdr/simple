@@ -1,13 +1,11 @@
 import os
 
-from fastapi import FastAPI, Header
+from fastapi import FastAPI
 
 app = FastAPI()
 
 @app.get("/")
 async def root():
     return {
-        "message": "OK",
-        "status": 200,
         "hostname": os.uname()[1]
     }
